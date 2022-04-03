@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	fmt.Println("开始开始数")
+	fmt.Println("开始开始数:Test")
 	var totalCount int64 = 0
 	for p := 0; p <= 5000; p++ {
 		fmt.Print("正在统计第", p, "页，")
